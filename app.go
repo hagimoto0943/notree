@@ -43,7 +43,7 @@ func (a *App) startup(ctx context.Context) {
 	if count == 0 {
 		a.db.Create(&Task{Content: "notreeの開発環境構築", IsDone: true})
 		a.db.Create(&Task{Content: "GoでDB接続テスト", IsDone: false})
-		a.db.Create(&Task{Content: "会計士試験の勉強", IsDone: false})
+		a.db.Create(&Task{Content: "試験の勉強", IsDone: false})
 	}
 }
 
